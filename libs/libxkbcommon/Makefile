@@ -17,6 +17,7 @@ PKG_INSTALL:=1
 PKG_BUILD_DEPENDS:=wayland
 
 include $(INCLUDE_DIR)/package.mk
+include $(INCLUDE_DIR)/nls.mk
 include $(INCLUDE_DIR)/meson.mk
 
 MESON_ARGS += \

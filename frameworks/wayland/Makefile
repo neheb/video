@@ -17,6 +17,7 @@ PKG_BUILD_DEPENDS:=libffi/host libxml2/host wayland/host
 HOST_BUILD_DEPENDS:=$(PKG_BUILD_DEPENDS)
 
 include $(INCLUDE_DIR)/package.mk
+include $(INCLUDE_DIR)/nls.mk
 include $(INCLUDE_DIR)/host-build.mk
 include $(INCLUDE_DIR)/meson.mk
 
